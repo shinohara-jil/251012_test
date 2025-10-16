@@ -1,17 +1,13 @@
 {
-  "name": "git-practice",
+  "name": "my-app",
   "version": "1.0.0",
-  "description": "Git push/pull 練習用",
-  "main": "server.js",
   "type": "module",
   "scripts": {
     "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.18.2",
+    "dotenv": "^16.0.3"
   },
   "engines": {
     "node": ">=18.0.0"
