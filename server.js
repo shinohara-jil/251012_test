@@ -16,6 +16,15 @@ app.get('/', (req, res) => {
   res.sendFile(join(__dirname, 'index.html'));
 });
 
+// 採用ページを表示
+app.get('/recruit', (req, res) => {
+  res.sendFile(join(__dirname, 'recruit.html'));
+});
+
+app.get('/recruit.html', (req, res) => {
+  res.sendFile(join(__dirname, 'recruit.html'));
+});
+
 app.listen(PORT, () => {
   console.log(`Server running on ${PORT}`);
 });
